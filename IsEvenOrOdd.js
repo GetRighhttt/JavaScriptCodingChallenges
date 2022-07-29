@@ -4,7 +4,7 @@
 
 // Use an arrow function to do so.
  const evenOrOdd = a => {
-    if(a % 2 == 0) {
+    if(a % 2 === 0) {
         console.log("Even")
     }
     else {
