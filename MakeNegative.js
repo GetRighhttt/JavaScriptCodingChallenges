@@ -12,4 +12,14 @@ const makeNegative = number => {
     return (number < 0) ? number: -number
 }
 
-console.log(makeNegative(9))
+console.log(makeNegative(9)) // prints negative 9
+
+/*
+Math.abs turns everything positive. So if we automatically make it negative,
+we will always return a negative value.
+*/
+
+const absolutelyNegative = num => {
+    return -Math.abs(num)
+}
+console.log(absolutelyNegative(10)) // prints negative 10
